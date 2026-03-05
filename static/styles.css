@@ -1,0 +1,195 @@
+body {
+
+    background: #0f172a;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+a {
+    color: #08a;
+}
+
+/* HEADER */
+
+.main-header {
+
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+
+}
+
+.header-content {
+
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.main-header h1 {
+
+    margin: 0;
+    font-size: 32px;
+
+}
+
+.main-header p {
+
+    margin-top: 16px;
+    opacity: 0.9;
+
+}
+
+
+/* CONTENEDOR */
+
+.container {
+
+    width: 400px;
+    margin: 40px auto;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+/* RESULTADO */
+
+.result {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.result input {
+
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+/* BOTONES */
+
+button {
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.generate {
+
+    margin-top: 20px;
+    width: 100%;
+    background: #22c55e;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+/* OPCIONES */
+
+.options {
+
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.options label {
+
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+/* BARRA DE SEGURIDAD */
+
+.strength {
+
+    margin-top: 20px;
+
+}
+
+#barra {
+
+    height: 10px;
+    background: #22c55e;
+    width: 0%;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+/* API */
+
+.api {
+
+    margin-top: 30px;
+    font-size: 14px;
+    background: #0f172a;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+
+/* FOOTER */
+
+.footer {
+
+    margin-top: 60px;
+    background: #020617;
+    padding: 20px;
+
+}
+
+.footer-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.creator-img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #22c55e;
+
+}
+
+.creator-name {
+
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.creator-text {
+
+    font-size: 14px;
+    opacity: 0.8;
+    margin: 0;
+
+}

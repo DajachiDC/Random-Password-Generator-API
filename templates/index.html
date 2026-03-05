@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Random Password Generator</h1>
+        <p>Una API gratuita y de <a href="">código abierto</a> para genera contraseñas seguras</p>
+    </header>
+
+    <div class="container">
+        <div class="result">
+            <input id="password" readonly>
+            <button onclick="copiar()">Copiar</button>
+        </div>
+
+        <div class="options">
+            <label>Longitud</label>
+            <input type="range" min="8" max="32" value="16" id="length">
+            <span id="lengthValue">16</span>
+            <label>
+                <input type="checkbox" id="numbers" checked> Incluir números</label>
+
+            <label>
+                <input type="checkbox" id="symbols" checked>
+                Incluir símbolos
+            </label>
+
+        </div>
+
+        <button class="generate" onclick="generarPassword()">
+            Generar contraseña
+        </button>
+
+        <div class="strength">
+            Seguridad
+            <div id="barra"></div>
+        </div>
+
+        <div class="api">
+            <h2>Usar la API</h2>
+            <code>/api/password?length=20&numbers=true&symbols=true</code>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://youtube.com/@Dajachi" target="_blank">
+                <img src="/static/creator.png" class="creator-img">
+            </a>
+            <div>
+                <p class="creator-name">Dajachi</p>
+                <p class="creator-text">© 2026 Random Password Generator — Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
