@@ -193,3 +193,32 @@ button {
     margin: 0;
 
 }
+
+.code-example {
+
+    width: 400px;
+    margin: 30px auto;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+
+}
+
+.code-box {
+
+    background: #dcdcdc;
+    padding: 15px;
+    border-radius: 4px;
+    overflow: auto;
+    max-height: 200px;
+    font-family: monospace;
+    font-size: 14px;
+
+}
+
+.code-box code {
+
+    color: #333;
+
+}
